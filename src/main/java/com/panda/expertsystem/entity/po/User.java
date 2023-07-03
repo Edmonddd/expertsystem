@@ -87,19 +87,19 @@ public class User implements Serializable {
 
     /**
      * 职称类别
-     * 1: 2: 3:
+     * 1:正高级  2:副高级  3:中级  4:初级  5:其他
      */
     private Byte titleCategory;
 
     /**
      * 任职机构类型
-     * 1: 2: 3:
+     * 1:科研机构  2:教育机构  3:企业  4:政府  5:社会团体  6:事业单位  7:其他
      */
     private Byte employmentType;
 
     /**
      * 入会渠道
-     * 1: 2: 3:
+     * 1:
      */
     private Byte membershipChannel;
 
@@ -107,10 +107,5 @@ public class User implements Serializable {
      * 备注
      */
     private String note;
-
-    @Override
-    public String toString() {
-        return "Test5 [name=" + name + ", id=" + id + "]";
-    }
 
 }
